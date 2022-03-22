@@ -110,7 +110,6 @@ make test
 Or to just test a specific stack:
 
 ```
-make heroku-18-build
 make heroku-20-build
 ```
 
@@ -150,3 +149,4 @@ test log file
 ```
 
 The test output writes to `$STD_OUT`, so you can use `cat $STD_OUT` to read output.
+
